@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Banner from "./cmp/Banner";
+import BusinessCart from "./cmp/BusinessCart";
+import Footer from "./cmp/Footer";
+import FreeTrial from "./cmp/FreeTrial";
+import Header from "./cmp/Header";
+import InvestInTheWorld from "./cmp/InvestInTheWorld";
+import Quate from "./cmp/Quate";
+import TrustedWorldwide from "./cmp/TrustedWorldwide";
+import WorkWithTools from "./cmp/WorkWithTools";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Banner />
+      <WorkWithTools />
+      <InvestInTheWorld />
+      <TrustedWorldwide />
+      <Quate />
+      <BusinessCart />
+      <FreeTrial />
+      <Footer />
     </div>
   );
 }
