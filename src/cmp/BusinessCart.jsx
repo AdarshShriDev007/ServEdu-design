@@ -3,7 +3,7 @@ import {AiOutlineCheck} from "react-icons/ai";
 
 const BusinessCart = () => {
   return (
-    <div className='w-full bg-white px-10 py-20'>
+    <div className='w-full bg-white px-10 py-20' id="business">
         <div className="max-w-[800px] mx-auto text-center">
             <h2 className='text-xl md:text-2xl lg:text-3xl font-bold mb-3'>Work with tools you already use</h2>
             <span className='text-slate-500 text-[13px] md:text-[15px] lg:text-[17px]'>we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</span>
